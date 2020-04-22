@@ -1,0 +1,676 @@
+﻿/* * {
+    box-sizing: border-box;
+    /* overflow: hidden; 
+} */
+
+body {
+    background-color: #515f67;
+    font-family: "Segoe UI";
+}
+
+/* -------------*/
+header {
+    background: url("images/bg_header.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 800px;
+
+
+}
+
+
+.header_container {
+
+    background-color: #353f46;
+    height: 150px;
+    opacity: 0.85;
+    top: 0;
+}
+
+.nav_bar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.nav_bar img {
+    margin-top: -15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation a {
+    color: #f1f2f2;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 21px;
+    margin-left: 16px;
+    padding: 1px 8px;
+    border: 2px #353f46 solid;
+    padding: 10px 18px;
+}
+
+
+
+.nav_bar .fas,
+.portfolio-menu .fas,
+.navigation .fas {
+    display: block;
+}
+
+.nav_bar,
+.slogan {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.navigation a:hover,
+.menu_filters a:hover {
+    border: 2px #4bcaff solid;
+    color: #4bcaff;
+    height: 21px;
+    margin-left: 16px;
+    padding: 10px 18px;
+    transition: all 0.3s;
+}
+
+
+
+/* .navigation a:before {
+    margin-right: 30px;
+} */
+
+.slogan {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    font-weight: lighter;
+    font-size: 38px;
+    flex-direction: column;
+    line-height: 1.786;
+    margin-top: 250px;
+    text-transform: uppercase;
+}
+
+.slogan-h1,
+.slogan-h2 {
+    background: #353f46;
+    min-height: 66px;
+    margin: 12px;
+    opacity: 0.85;
+    text-align: center;
+    display: inline-table;
+}
+
+.slogan-h1 {
+    max-width: 714px;
+}
+
+.slogan-h2 {
+    max-width: 990px;
+}
+
+/*---------------------------------------*/
+.service-container {
+    background: #4bcaff;
+    min-height: 406px;
+}
+
+.service-wrapper {
+    color: #fff;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.servise {
+    font-size: 30px;
+    height: 66px;
+    padding-top: 60px;
+    text-transform: uppercase;
+    max-width: 65px;
+}
+
+
+
+.decoration {
+    text-decoration: underline;
+}
+
+.name_coffee,
+.name_instant,
+.name_serious,
+.name_frame {
+    font-size: 24px;
+    margin-top: 22px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text_coffee,
+.text_instant,
+.text_serious,
+.text_frame {
+    font-size: 12px;
+    height: 67px;
+    line-height: 1.5;
+    min-width: 259px;
+    margin-top: 18px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 60px; */
+}
+
+/*-------------------------*/
+.portfolio-container {
+    min-height: 848px;
+    background: #fff;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.portfolio-wrapper,
+.foto,
+#myBtnContainer {
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-bottom: 46px;
+}
+
+.portfolio-logo a,
+.portfolio-menu a {
+    text-decoration: none;
+    color: #515f67;
+    list-style: none;
+    cursor: pointer;
+}
+
+.portfolio-logo a {
+    font-size: 30px;
+}
+
+.portfolio-menu a {
+    font-size: 14px;
+    font-weight: bold;
+    /* border: 2px white solid; */
+    border: none;
+    display: inline;
+}
+
+.portfolio-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.portfolio-menu ul {
+    margin-top: -25px;
+}
+
+.portfolio-logo {
+    padding-top: 80px;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.foto div {
+    margin-top: 30px;
+}
+
+.foto div a:hover {
+
+    box-shadow: 0 0 #353f46;
+    height: 350px;
+    width: 350px;
+    /* margin-left: 50%; */
+}
+
+#myBtnContainer button {
+    width: 120px;
+    height: 65px;
+    background-color: #4bcaff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+/*--------------------------------------------*/
+.video-container {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    min-height: 472px;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.video-name {
+    max-width: 474px;
+
+}
+
+.video-name h2 {
+    font-size: 30px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    line-height: 0.8;
+}
+
+.video-description {
+    font-size: 14px;
+    font-family: Segoe UI Regular;
+    line-height: 1.714;
+    margin-top: 40px;
+}
+
+.video iframe {
+    height: 286px;
+    width: 468px;
+}
+
+.video-description p:last-child {
+    margin-top: 40px;
+}
+
+.buttonPopup:hover,
+#myBtn:hover {
+    background: #353f46;
+    color: #4bcaff;
+    border: #353f46;
+}
+
+
+.buttonPopup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+
+.buttonPopup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.buttonPopup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+.video {
+    margin-top: 80px;
+    max-width: 100%;
+}
+
+/*-------------------------------------*/
+.twitter-contact {
+    background: #4bcaff;
+    min-height: 308px;
+}
+
+.twitter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 78px;
+}
+
+.twitter-container h2,
+.fa-twitter,
+.twitter-contact p {
+    color: #fff;
+}
+
+.twitter-container h2 {
+    line-height: 0.8;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.fa-twitter {
+    font-size: 30px;
+    margin-right: 0px;
+}
+
+.twitter-contact p {
+    font-size: 28px;
+    line-height: 1.786;
+    margin: 0 auto;
+    max-width: 1170px;
+    margin-top: 54px;
+}
+
+/*---------------------------------------*/
+.historyJohn_container {
+    background: url('images/bg\ photo.jpg') no-repeat;
+    background-size: cover;
+    min-height: 508px;
+}
+
+.historyJohn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 102px;
+}
+
+.historyJohn_container h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.historyJohn_container p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.714;
+    max-width: 502px;
+    padding-top: 52px;
+}
+
+.historyJohn_container p:last-child {
+    padding-top: 38px;
+}
+
+.icons {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 38px;
+    margin-right: 20px;
+}
+
+.icons .fa-twitter:hover,
+.icons .fa-google-plus:hover,
+.icons .fa-dribbble:hover,
+.icons .fa-coffee:hover {
+    color: #4bcaff;
+    border: 2px #4bcaff solid;
+}
+
+.text-part2 {
+    padding-top: 22px;
+}
+
+.icons .fa-twitter,
+.icons .fa-google-plus,
+.icons .fa-dribbble,
+.icons .fa-coffee {
+    border: 2px #fff solid;
+    background: none;
+    min-height: 28px;
+    margin-right: 10px;
+    text-align: center;
+    padding: 16px 16px;
+    max-width: 64px;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
+.testimonials-container {
+    min-height: 362px;
+    background: #fff;
+}
+
+.testimonials-wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 80px;
+}
+
+.testimonials-wrapper h3 {
+    color: #515f67;
+    font-size: 30px;
+    line-height: 0.8;
+    text-transform: uppercase;
+}
+
+.testimonials-wrapper .fa-comments {
+    color: #515f67;
+    font-size: 32px;
+    float: right;
+    font-weight: bold;
+    line-height: 0.694;
+    margin-top: -20px;
+}
+
+.testimonials-wrapper blockquote {
+    color: #515f67;
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 1.786;
+    padding-top: 58px;
+}
+
+.testimonials-wrapper cite {
+    color: #4bcaff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 3.571;
+
+}
+
+/*-------------------------------------------------*/
+.contact-container {
+    background: url("images/layer.png") no-repeat;
+    min-height: 818px;
+    background-size: cover;
+}
+
+.contact-wrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    color: #fff;
+}
+
+.contact-wrapper input {
+    background: none;
+    border: 2px #fff solid;
+    height: 60px;
+    width: 474px;
+}
+
+.contact-wrapper h3 {
+    font-size: 30px;
+    font-weight: light;
+    line-height: 0.8;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+
+.contact-wrapper form {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.714;
+    text-transform: uppercase;
+}
+
+.contact-wrapper .email,
+.contact-wrapper .message {
+    margin-top: 20px;
+}
+
+.contact-wrapper .message {
+    height: 222px;
+    width: 1172px;
+}
+
+.contact-dani {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.714;
+    max-width: 536px;
+    padding-top: 15px;
+}
+
+.contact-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.contact-dani p:last-child {
+    width: 250px;
+    padding-top: 40px;
+}
+
+.contact-wrapper form .message {
+    margin-top: 30px;
+}
+
+.contact-wrapper button,
+.portfolioButton,
+#myBtnContainer button,
+.buttonPopup {
+    background: #4bcaff;
+    border: #4bcaff;
+    color: #fff;
+    min-height: 62px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 325px;
+    cursor: pointer;
+}
+
+.messageForm input {
+    max-width: 1140px;
+    max-height: 196px;
+}
+
+.contact-wrapper button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #515f67;
+    opacity: 0.95;
+    overflow: auto;
+}
+
+.modal-content {
+    background: #fefefe;
+    padding: 20px;
+    margin: 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+    color: black;
+}
+
+.close {
+    color: #515f67;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
+footer {
+    background: #353f47;
+    min-height: 100px;
+}
+
+.footer-wrapper {
+    display: flex;
+    color: #515f67;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+
+footer ul a {
+    border-right: 2px #515f67 solid;
+    display: flex;
+    color: #515f67;
+    justify-content: space-between;
+    padding-right: 14px;
+    padding-right: 14px;
+    padding-left: 14px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #4bcaff;
+}
+
+footer li:first-child {
+    padding-left: 0;
+}
+
+footer ul {
+    display: flex;
+}
+
+/****************************************************************************/
+
+.header_container,
+.service-container,
+.portfolio-container,
+.video-name,
+.twitter-contact,
+.historyJohn_container,
+.testimonials-container,
+.contact-container,
+footer {
+    overflow: hidden;
+    box-sizing: border-box;
+}

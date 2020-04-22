@@ -1,0 +1,326 @@
+@media only screen and (max-width : 1120px) and (max-width: 980px) and (max-width: 768px) and (max-width: 640px) and (min-width: 320px) {
+
+    *,
+    body {
+        max-width: 100%;
+        float: none;
+        margin: 0 auto;
+        /* overflow-x: hidden; */
+
+    }
+
+    header {
+        min-height: 520px;
+    }
+
+    /* 
+    .nav_bar .fas {
+        display: block;
+    } */
+
+    .nav_bar img {
+        margin-left: 10px;
+        height: 60px;
+    }
+
+    nav,
+    .portfolio-menu {
+        margin-top: -25px;
+    }
+
+    .navigation a {
+        font-size: 12px;
+    }
+
+    /* 
+    .navigation, */
+    .slogan-h1,
+    .servise-container,
+    .video-container,
+    .historyJohn-wrapper,
+    .testimonials-wrapper,
+    .contact-wrapper,
+    .footer-wrapper {
+        display: inline-block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation a:hover {
+        margin-right: 20px;
+    }
+
+    .slogan {
+        margin-top: 50px;
+        font-size: 22px;
+    }
+
+    .slogan-h1,
+    .slogan-h2 {
+        margin: 20px;
+    }
+
+    .servise a,
+    .portfolio-logo h1,
+    .twitter-container h2 {
+        font-size: 38px;
+    }
+
+    blockquote .buttonPopup {
+        width: 120px;
+    }
+
+    .header_container,
+    .service-wrapper,
+    .portfolio-wrapper,
+    .video-name,
+    .twitter-contact,
+    .column,
+    .testimonials-wrapper h3 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .twitter-contact p,
+    blockquote p {
+        font-size: 18px;
+    }
+
+    .video-name {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .video iframe {
+        height: 186px;
+        width: 288px;
+    }
+
+    .video-name h2 {
+        font-size: 25px;
+    }
+
+    .video-container,
+    .twitter-container,
+    .testimonials-wrapper {
+        margin-left: 5%;
+    }
+
+    .column,
+    .foto {
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 5% 10%;
+    }
+
+    .column>div {
+        padding-bottom: 30px;
+    }
+
+    .video {
+        padding-left: 5%;
+        padding-bottom: 5%;
+        max-width: 90%;
+        margin-top: 0;
+    }
+
+    .historyJohn_container .icons {
+        padding-bottom: 5%;
+    }
+
+    .historyJohn-wrapper h2 {
+        margin-left: 5%;
+        padding-top: 5%;
+    }
+
+    .historyJohn-wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .historyJohn-wrapper h2 {
+        font-size: 26px;
+        margin-top: -20%;
+    }
+
+    .historyJohn-wrapper .icons {
+        text-align: center;
+    }
+
+    .testimonials-wrapper,
+    .testimonials-wrapper p,
+    .contact-dani,
+    .testimonials-wrapper cite {
+        padding: 5%;
+    }
+
+    .testimonials-wrapper i {
+        padding-right: 5%;
+    }
+
+    .testimonials-wrapper h3 {
+        margin-top: 24px;
+    }
+
+    .contact-container form {
+        max-width: 80%;
+    }
+
+    .contact-container {
+        padding-left: 5%;
+    }
+
+    .contact-flex {
+        display: inline;
+    }
+
+    .contact-flex input {
+        width: 245px;
+    }
+
+    .contact-wrapper h3 {
+        margin-bottom: 5%;
+    }
+
+    .contact-dani p {
+        padding-left: -15%;
+        margin-right: 202px;
+    }
+
+
+
+    .footer-wrapper ul {
+        padding: 0 5%;
+    }
+
+
+    /* .navMenu .fas,
+    .portfolio-menu .fas {
+        color: #fff;
+        font-size: 40px;
+        padding-right: 5px;
+        padding-top: 18px;
+        display: inline-flex;
+    } */
+
+    .portfolio-menu .fas {
+        color: #515f67;
+        padding-top: 0;
+        margin-top: -10px;
+        font-size: 36px;
+    }
+
+    /* .navMenu .fas {
+        color: white;
+        margin-top: -20%;
+        font-size: 36px;
+        text-decoration: none;
+    } */
+
+    .portfolio-container {
+        min-height: 486px;
+    }
+
+    .foto div {
+        margin-top: -10px;
+        margin-left: -10px;
+        height: 75px;
+        width: 75px;
+    }
+
+
+    .icons .fa-twitter,
+    .icons .fa-google-plus,
+    .icons .fa-dribbble,
+    .icons .fa-coffee {
+        font-size: 18px;
+        padding: 10px 10px 2px 10px;
+    }
+
+
+    .dropDown {
+        position: relative;
+        display: inline-block;
+        z-index: 100;
+    }
+
+    /* 
+    .navMenu .navigation {
+        display: none;
+        background-color: #353f46;
+        min-width: 180px;
+    } */
+
+    .navMenu .navigation a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropDown:hover .navMenu .navigation {
+        display: block;
+        position: fixed;
+        transition: left 0.2 s;
+    }
+
+    .navMenu .navigation:hover {
+        padding-right: 5%;
+    }
+
+    .navMenu .navigation li {
+        padding-right: 10px;
+    }
+
+    .messageForm input {
+        width: 245px;
+        height: 168px;
+    }
+
+    #myBtn {
+        max-width: 245px;
+    }
+
+    .footer-wrapper ul {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 760px) {
+    .service-container {
+        min-height: 868px;
+        position: relative;
+    }
+
+    div.column {
+
+        margin-left: -25px;
+        min-width: 100px;
+    }
+
+    .column div {
+        justify-content: space-between;
+        margin-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .foto div {
+        height: 146px;
+        min-width: 146px;
+    }
+
+    .messageForm {
+        max-width: 345px;
+    }
+}
+
+/* 320
+480
+768
+980
+1200
+1400
+1600... */
